@@ -13,9 +13,9 @@ const PostsList = ({ data }) => (
                     {/* <p className="card-text">{item.body}</p> */}
                     
                     </div>
-                    <div class="card-footer d-flex justify-content-between border-0 bg-white align-items-center">
-                        <Link to={`/blog/${item.id}`} class="text-dark">Read More</Link>
-                        <small class="o-text-primary">13 Feb 2020</small>
+                    <div className="card-footer d-flex justify-content-between border-0 bg-white align-items-center">
+                        <Link to={`/blog/${item.id}`} className="text-dark">Read More</Link>
+                        <small className="o-text-primary">13 Feb 2020</small>
                     </div>
                 </div>
             ))
