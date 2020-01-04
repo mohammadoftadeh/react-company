@@ -1,6 +1,16 @@
 @import './scss/Variables.scss';
 
 /**
+*   font size
+*/
+.o-font-sm{
+    font-size: .85rem;
+}
+.o-font-lg{
+    font-size: 2rem;
+}
+
+/**
 *   override
 */
 button{

@@ -17,7 +17,7 @@ const Carousel = ({ data }) => {
     };
 
     return(
-        <div>
+        <div className="main-slider">
             <Slider {...settings}>
             {
                 data.map(item => (

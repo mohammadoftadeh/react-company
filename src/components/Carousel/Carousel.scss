@@ -1,13 +1,15 @@
-.slick-list{
-    max-height: calc(100vh - 56px);
-}
+.main-slider{
+    .slick-list{
+        max-height: calc(100vh - 56px);
+    }
 
-.slick-dots{
-    bottom: 13px;
-    li, li.slick-active{
-        button::before{
-            color: #fff;
-            font-size: 10px;
+    .slick-dots{
+        bottom: 13px;
+        li, li.slick-active{
+            button::before{
+                color: #fff;
+                font-size: 10px;
+            }
         }
     }
 }
