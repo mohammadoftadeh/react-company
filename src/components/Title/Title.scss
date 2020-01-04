@@ -1,0 +1,14 @@
+@import './../../scss/Variables.scss';
+
+h5{
+    &::after{
+        position: absolute;
+        content: '';
+        width: 45px;
+        height: 3px;
+        background: $primary;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -13px;
+    }
+}

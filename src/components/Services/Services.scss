@@ -1,0 +1,14 @@
+@import '../../scss/Variables.scss';
+
+.services-box{
+    width: 265px;
+
+    .services-icon{
+        width: 85px;
+        height: 85px;
+        border-radius: 300px;
+        line-height: 79px;
+        font-size: 30px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,24 @@
+@import './scss/Variables.scss';
+
+/**
+*   override
+*/
+button{
+    outline: none !important;
+}
+
+.o-text-primary{
+    color: $primary;
+}
+
+/**
+*   background class
+*/
+
+.o-bg-primary{
+    background: $primary;
+}
+
+.o-bg-blue-light{
+    background: $blue-light;
+}
