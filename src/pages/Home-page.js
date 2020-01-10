@@ -14,7 +14,7 @@ const HomePage = () => (
         <CarouselContainer />
         <ServicesContainer />
         <HeroVideo />
-        <PostsContainer />
+        <PostsContainer limit="3" viewAll />
         <TestimonialContainer />
         <Footer />
     </>
