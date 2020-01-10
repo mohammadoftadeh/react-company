@@ -1,18 +1,26 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { Link, NavLink } from 'react-router-dom';
 
 import Social from '../Social/Social';
 
 import './Navbar.scss';
 
-const Navbar = () => (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+const Navbar = () => {
+
+  const [toggleMenu, setToggleMenu] = useState(false);
+
+  const toggle = () => {
+    setToggleMenu(!toggleMenu);
+  }
+
+    return (
+    <nav className="navbar navbar-expand-sm navbar-light bg-light">
   <Link className="navbar-brand" to="/">M.O</Link>
-  <button className="navbar-toggler" type="button">
+  <button className="navbar-toggler" type="button" onClick={() => toggle()}>
     <span className="navbar-toggler-icon"></span>
   </button>
 
-  <div className="collapse navbar-collapse">
+  <div className={`navbar-collapse${toggleMenu ? ' show-menu' : ' custom-collapse'}`}>
     <ul className="navbar-nav mr-auto">
       <li className="nav-item">
       <NavLink to="/" exact activeClassName="active" className="nav-link">Home</NavLink>
@@ -30,6 +38,7 @@ const Navbar = () => (
     <Social />
   </div>
 </nav>
-);
+)
+};
 
 export default Navbar;

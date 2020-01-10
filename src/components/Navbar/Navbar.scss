@@ -1,0 +1,31 @@
+.navbar-expand-sm{
+    .navbar-nav{
+        display: none;
+    }
+}
+
+.show-menu{
+    transition: .3s;
+    height: 200px;
+    border-top: 1px solid #eee;
+    margin-top: .85rem;
+    .navbar-nav:first-child, .navbar-nav:last-child{
+        display: flex;
+    }
+    .navbar-nav:first-child{
+        flex-direction: column !important;
+    }
+}
+
+.custom-collapse{
+    transition: .3s;
+    height: 0;
+}
+
+@media (min-width: 576px){
+    .navbar-expand-sm{
+        .navbar-nav{
+            display: block;
+        }
+    }
+}
