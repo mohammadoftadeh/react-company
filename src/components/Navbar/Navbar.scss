@@ -9,7 +9,7 @@
     height: 200px;
     border-top: 1px solid #eee;
     margin-top: .85rem;
-    .navbar-nav:first-child, .navbar-nav:last-child{
+    .navbar-nav{
         display: flex;
     }
     .navbar-nav:first-child{
@@ -25,7 +25,7 @@
 @media (min-width: 576px){
     .navbar-expand-sm{
         .navbar-nav{
-            display: block;
+            display: flex;
         }
     }
 }
