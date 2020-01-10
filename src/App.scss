@@ -6,6 +6,9 @@
 .o-font-sm{
     font-size: .85rem;
 }
+.o-font-md{
+    font-size: 1rem;
+}
 .o-font-lg{
     font-size: 2rem;
 }
@@ -31,4 +34,8 @@ button{
 
 .o-bg-blue-light{
     background: $blue-light;
+}
+
+.o-bg-dark{
+    background: $dark;
 }

@@ -5,6 +5,7 @@ import ServicesContainer from '../components/Services/Services-container';
 import HeroVideo from '../components/HeroVideo/HeroVideo';
 import PostsContainer from '../components/Posts/Posts-container';
 import TestimonialContainer from '../components/Testimonial/Testimonial-container';
+import Footer from '../components/Footer/Footer';
 
 
 const HomePage = () => (
@@ -15,6 +16,7 @@ const HomePage = () => (
         <HeroVideo />
         <PostsContainer />
         <TestimonialContainer />
+        <Footer />
     </>
 );
 
