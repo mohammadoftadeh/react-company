@@ -8,6 +8,7 @@ import HomePage from './pages/Home-page';
 import BlogPage from './pages/Blog-page';
 import AboutPage from './pages/About-page';
 import ContactPage from './pages/Contact-page';
+import Single from './pages/Single';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Switch>
         <Route path="/" exact component={HomePage} />
         <Route path="/blog" exact component={BlogPage} />
+        <Route path="/blog/:id" exact component={Single} />
         <Route path="/about" exact component={AboutPage} />
         <Route path="/contact" exact component={ContactPage} />
       </Switch>
